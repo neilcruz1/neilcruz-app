@@ -3,7 +3,7 @@ version: 0.2
 env:
     variables:
         CACHE_CONTROL: "86400"
-        S3_BUCKET: "{{https://s3.amazonaws.com/neilcruz.com/}}"
+        S3_BUCKET: "https://s3.amazonaws.com/neilcruz.com/"
         BUILD_FOLDER: "dist"
 phases:
   install:

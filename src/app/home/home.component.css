@@ -1,13 +1,17 @@
-body {
-    display: flex;
-    justify-content: center;
-    background-color: beige;
-}
-
-img {
-    border-radius: 25px;
-}
-
 .container {    
     text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+    animation: fadeIn 3s;
+    background-image: url('../../assets/images/gradient.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 100; }
 }

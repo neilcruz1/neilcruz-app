@@ -1,7 +1,7 @@
 mat-toolbar {
-    border-radius: 25px;
-    background-color: lightskyblue;
-    width: 70%; 
+    border-radius: 1px;
+    background-color: #1B547B;
+    width: 100%; 
 }
 
 mat-toolbar-row {
@@ -46,5 +46,4 @@ button:hover:after {
 .center-container {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
 }

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -8,10 +7,5 @@ import { Router } from '@angular/router';
 })
 
 export class HeaderComponent {
-  constructor(public router: Router) {}
-  
-  goToPage(pageName: string): void {
-    this.router.navigate([`${pageName}`]);
-  }
-  
+
 }
